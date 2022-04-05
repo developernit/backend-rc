@@ -15,5 +15,6 @@ exports.default = {
     dbName: "reddit-clone",
     type: "postgresql",
     debug: !constants_1.__prod__,
+    allowGlobalContext: true,
 };
 //# sourceMappingURL=mikro-orm.config.js.map

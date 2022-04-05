@@ -23,6 +23,7 @@
           "primary": false,
           "nullable": false,
           "length": 6,
+          "default": "'NOW()'",
           "mappedType": "datetime"
         },
         "update_at": {

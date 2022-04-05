@@ -22,7 +22,7 @@ __decorate([
     __metadata("design:type", Number)
 ], Post.prototype, "id", void 0);
 __decorate([
-    (0, core_1.Property)({ type: "date" }),
+    (0, core_1.Property)({ type: "date", default: "NOW()" }),
     __metadata("design:type", Object)
 ], Post.prototype, "createdAt", void 0);
 __decorate([
