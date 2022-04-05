@@ -76,7 +76,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], PostResolver.prototype, "updatePost", null);
 __decorate([
-    (0, type_graphql_1.Mutation)(() => Post_1.Post),
+    (0, type_graphql_1.Mutation)(() => Boolean),
     __param(0, (0, type_graphql_1.Arg)("id")),
     __param(1, (0, type_graphql_1.Ctx)()),
     __metadata("design:type", Function),
